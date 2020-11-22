@@ -1,5 +1,5 @@
 {
-  "name": "array-group",
+  "name": "general-utils-lt",
   "version": "0.0.1",
   "description": "Group elements within an array using a positive integer to determine the point to break the array down.",
   "main": "./dist/index-cjs.js",

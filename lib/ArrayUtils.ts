@@ -49,15 +49,14 @@ class ArrayUtils extends Utils {
       Utils.handleError('Cannot split array into more segments than elements.')
     }
 
-    let inner
+    let inner: T[] = []
 
     const innerLength = Math.round(arr.length / numberOfSegments)
 
-    const result = arr.reduce((built, element, index) => {
-
-      if (index === 0) {
-        inner = []
-      }
+    const result: Array<Array<T>> = arr.reduce((
+      built: Array<Array<T>>,
+      element: T
+    ) => {
 
       if (inner.length < innerLength) {
         inner.push(element)
