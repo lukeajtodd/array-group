@@ -1,3 +1,3 @@
-export { Utils } from './lib/Utils'
-export { NumberUtils } from './lib/NumberUtils'
-export { ArrayUtils } from './lib/ArrayUtils'
+export * from './lib/Utils'
+export * from './lib/NumberUtils'
+export * from './lib/ArrayUtils'
