@@ -35,6 +35,10 @@
   ],
   "author": "Luke Todd",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukeajtodd/general-utils-lt.git"
+  },
   "devDependencies": {
     "esbuild": "^0.8.11",
     "redrun": "^8.0.3",
