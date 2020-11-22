@@ -40,9 +40,9 @@ utils.groupArrayElements([1, 2, 3, 4, 5], 3)
 
 ```html
 <script>
-import { ArrayUtils } from 'https://cdn.skypack.dev/general-utils-lt'
+import GeneralUtils from 'https://cdn.skypack.dev/general-utils-lt'
 
-const utils = new ArrayUtils()
+const utils = new GeneralUtils.ArrayUtils()
 
 utils.groupArrayElements([1, 2, 3, 4, 5], 3)
 // [ [1, 2], [3, 4], [5] ]

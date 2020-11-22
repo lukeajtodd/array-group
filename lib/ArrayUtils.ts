@@ -32,6 +32,12 @@ class ArrayUtils extends Utils {
     }
   }
 
+  /**
+   * Split an array into segments based on the second argument.
+   *
+   * @param arr Array to be unflattened/broken into segments
+   * @param numberOfSegments Number of segments to break the array down to
+   */
   groupArrayElements<T>(
     arr: Array<T>,
     numberOfSegments: number
