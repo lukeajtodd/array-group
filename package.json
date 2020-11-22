@@ -1,7 +1,7 @@
 {
   "name": "general-utils-lt",
-  "version": "0.0.1",
-  "description": "Group elements within an array using a positive integer to determine the point to break the array down.",
+  "version": "0.0.2",
+  "description": "general purpose utilities, includng Number and Array utilities",
   "main": "./dist/index-cjs.js",
   "module": "./dist/index-esm.js",
   "exports": {
@@ -20,7 +20,7 @@
     "build": "redrun types build-iife-browser build-esm-browser build-node -p",
     "types": "tsc index.ts -noEmit",
     "build-esm-browser": "esbuild index.ts --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge16 --format=esm --outfile=dist/index-esm.js",
-    "build-iife-browser": "esbuild index.ts --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge16 --outfile=dist/index-iife.js",
+    "build-iife-browser": "esbuild index.ts --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge16 --global-name=GeneralUtils --outfile=dist/index-iife.js",
     "build-node": "esbuild index.ts --bundle --platform=node --target=node10 --format=cjs --outfile=dist/index-cjs.js"
   },
   "files": [

@@ -14,6 +14,8 @@ yarn add general-utils-lt
 
 ### Usage (npm)
 
+Typescript or Javascript
+
 ```js
 import { ArrayUtils } from 'general-utils-lt'
 
@@ -25,11 +27,13 @@ utils.groupArrayElements([1, 2, 3, 4, 5], 3)
 
 ### Usage (Skypack)
 
-```js
+```html
+<script>
 import { ArrayUtils } from 'https://cdn.skypack.dev/general-utils-lt'
 
 const utils = new ArrayUtils()
 
 utils.groupArrayElements([1, 2, 3, 4, 5], 3)
 // [ [1, 2], [3, 4], [5] ]
+</script>
 ```
