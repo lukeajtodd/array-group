@@ -1,9 +1,3 @@
-import Utils from './lib/Utils'
-import NumberUtils from './lib/NumberUtils'
-import ArrayUtils from './lib/ArrayUtils'
-
-export default {
-  Utils,
-  NumberUtils,
-  ArrayUtils
-}
+export { Utils } from './lib/Utils'
+export { NumberUtils } from './lib/NumberUtils'
+export { ArrayUtils } from './lib/ArrayUtils'
